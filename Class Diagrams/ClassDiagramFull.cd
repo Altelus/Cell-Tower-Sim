@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="ActorSprite">
+    <Position X="4" Y="18.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAEAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Include\ActorSprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellTowerGame">
+    <Position X="11.75" Y="14.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAIAAAAACQAIEIgABAAAAAAAAgAQ=</HashCode>
+      <FileName>Include\CellTowerGame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellTowerSprite">
+    <Position X="7.25" Y="18.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIBAAAAAAIAAAAAAAIAAAAEAAA=</HashCode>
+      <FileName>Include\CellTowerSprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game">
+    <Position X="10.5" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>CqQAABAAAIBAIIAgIhICAACAAggAJhAAAAAIAAkMIAA=</HashCode>
+      <FileName>Include\Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameBack">
+    <Position X="4.5" Y="8.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAACAQAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Include\GameBack.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStateInfo">
+    <Position X="15.75" Y="4.25" Width="2.25" />
+    <NestedTypes>
+      <Enum Name="GameStateInfo::__unnamed_enum_000c_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Include\Game.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAEABAAAAAAgAIAAAAAAAAAAAAAAAgwAAAAIA=</HashCode>
+      <FileName>Include\Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GridGame">
+    <Position X="11.25" Y="8.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>QACAAEAAgAgAIAAAAAAAAAAAAAAAIgAIIAAICCAAAAQ=</HashCode>
+      <FileName>Include\GridGame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GridSprite">
+    <Position X="0.75" Y="8.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAEAAASAAAEIKBIAAAEgBCAAGgAECQCQBGAAA=</HashCode>
+      <FileName>Include\GridSprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputInfo">
+    <Position X="15.75" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAQAAAAAAAAAAAQAAAAAAAAAAACpACIAAA=</HashCode>
+      <FileName>Include\Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerSprite">
+    <Position X="0.5" Y="18.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAA=</HashCode>
+      <FileName>Include\PlayerSprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGBColor">
+    <Position X="21" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Include\Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sprite">
+    <Position X="0.5" Y="0.5" Width="7.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAQACQACAAAAAAIAIBgCQAACWIAUMCALIAAEQAA=</HashCode>
+      <FileName>Include\Sprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpriteAnimation">
+    <Position X="19.75" Y="3.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAACAAAAAAAAAAIAIBACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\Sprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timer">
+    <Position X="15.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AARAgAAAAQAAAAAAAAAAAAQgAgAEAACAAAAAAAAEAAA=</HashCode>
+      <FileName>Include\Timer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XY_Coordinate">
+    <Position X="19.25" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABJgAAAAAAA=</HashCode>
+      <FileName>Include\Sprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

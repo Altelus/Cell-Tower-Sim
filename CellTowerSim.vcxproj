@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3015BDDA-264D-44C6-863C-6BB5C4265A95}</ProjectGuid>
+    <RootNamespace>Pacman</RootNamespace>
+    <ProjectName>CellTowerSim</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)$lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameBack.cpp" />
+    <ClCompile Include="GridSprite.cpp" />
+    <ClCompile Include="GridGame.cpp" />
+    <ClCompile Include="ActorSprite.cpp" />
+    <ClCompile Include="CellTowerSprite.cpp" />
+    <ClCompile Include="PlayerSprite.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="CellTowerGame.cpp" />
+    <ClCompile Include="Primitives.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="Timer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\CellTowerSprite.h" />
+    <ClInclude Include="Include\PlayerSprite.h" />
+    <ClInclude Include="Include\ActorSprite.h" />
+    <ClInclude Include="Include\GridGame.h" />
+    <ClInclude Include="Include\GridSprite.h" />
+    <ClInclude Include="Include\BoulderDashGame.h" />
+    <ClInclude Include="includes\freeglut.h" />
+    <ClInclude Include="includes\freeglut_ext.h" />
+    <ClInclude Include="includes\freeglut_std.h" />
+    <ClInclude Include="includes\Game.h" />
+    <ClInclude Include="includes\glut.h" />
+    <ClInclude Include="includes\gl\glut.h" />
+    <ClInclude Include="includes\HorizontalScrollingBackground.h" />
+    <ClInclude Include="includes\IL\config.h" />
+    <ClInclude Include="includes\IL\devil_internal_exports.h" />
+    <ClInclude Include="includes\IL\il.h" />
+    <ClInclude Include="includes\IL\ilu.h" />
+    <ClInclude Include="includes\IL\ilut.h" />
+    <ClInclude Include="includes\IL\ilu_region.h" />
+    <ClInclude Include="includes\primitives.h" />
+    <ClInclude Include="includes\resource.h" />
+    <ClInclude Include="includes\Sprite.h" />
+    <ClInclude Include="includes\Timer.h" />
+    <ClInclude Include="include\GL\freeglut.h" />
+    <ClInclude Include="include\GL\freeglut_ext.h" />
+    <ClInclude Include="include\GL\freeglut_std.h" />
+    <ClInclude Include="Include\Game.h" />
+    <ClInclude Include="include\GL\glut2.h" />
+    <ClInclude Include="include\GL\glut.h" />
+    <ClInclude Include="Include\GameBack.h" />
+    <ClInclude Include="include\IL\config.h" />
+    <ClInclude Include="include\IL\devil_internal_exports.h" />
+    <ClInclude Include="include\IL\il.h" />
+    <ClInclude Include="include\IL\ilu.h" />
+    <ClInclude Include="include\IL\ilut.h" />
+    <ClInclude Include="include\IL\ilu_region.h" />
+    <ClInclude Include="Include\CellTowerGame.h" />
+    <ClInclude Include="Include\Primitives.h" />
+    <ClInclude Include="include\resource.h" />
+    <ClInclude Include="Include\Sprite.h" />
+    <ClInclude Include="Include\Timer.h" />
+    <ClInclude Include="Include\MovingSprite.h" />
+    <ClInclude Include="Include\JumpingSprite.h" />
+    <ClInclude Include="Include\ShakingSprite.h" />
+    <ClInclude Include="Primitives.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Class Diagrams\ClassDiagram.cd" />
+    <None Include="Class Diagrams\ClassDiagramFull.cd" />
+    <None Include="include\GL\freeglut_readme.txt" />
+    <None Include="lib\DevIL.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="lib\DevIL.exp" />
+    <None Include="lib\freeglut.dll" />
+    <None Include="lib\glut32.dll" />
+    <None Include="lib\ILU.dll" />
+    <None Include="lib\ILU.exp" />
+    <None Include="lib\ILUT.dll" />
+    <None Include="lib\ILUT.exp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\DevIL.lib" />
+    <Library Include="lib\freeglut.lib" />
+    <Library Include="lib\glut32.lib" />
+    <Library Include="lib\ILU.lib" />
+    <Library Include="lib\ILUT.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
